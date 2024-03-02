@@ -1,0 +1,32 @@
+[1696428731.806569] 12 requests(s) received 781741 bytes in 1.106001 seconds.
+[1696428732.776754] 12 requests(s) received 781742 bytes in 0.970097 seconds.
+[1696428733.650367] 12 requests(s) received 781742 bytes in 0.873590 seconds.
+[1696428734.551982] 12 requests(s) received 781741 bytes in 0.901592 seconds.
+[1696428735.480240] 12 requests(s) received 781742 bytes in 0.928217 seconds.
+[1696428736.499010] 12 requests(s) received 781742 bytes in 1.018747 seconds.
+[1696428737.375693] 12 requests(s) received 781742 bytes in 0.876657 seconds.
+[1696428738.500837] 12 requests(s) received 781742 bytes in 1.125121 seconds.
+[1696428739.457108] 12 requests(s) received 781742 bytes in 0.956249 seconds.
+[1696428740.482777] 12 requests(s) received 781742 bytes in 1.025645 seconds.
+[1696428741.498515] 12 requests(s) received 781743 bytes in 1.015714 seconds.
+[1696428742.427821] 12 requests(s) received 781742 bytes in 0.928960 seconds.
+[1696428743.680385] 12 requests(s) received 781742 bytes in 1.252541 seconds.
+[1696428744.976162] 12 requests(s) received 781739 bytes in 1.295756 seconds.
+[1696428746.151120] 12 requests(s) received 781740 bytes in 1.174937 seconds.
+[1696428747.417583] 12 requests(s) received 781739 bytes in 1.266440 seconds.
+[1696428748.380249] 12 requests(s) received 781739 bytes in 0.962642 seconds.
+[1696428749.297834] 12 requests(s) received 781738 bytes in 0.917562 seconds.
+[1696428750.306766] 12 requests(s) received 781742 bytes in 1.008908 seconds.
+[1696428751.243616] 12 requests(s) received 781740 bytes in 0.936828 seconds.
+[1696428752.126941] 12 requests(s) received 781739 bytes in 0.883297 seconds.
+[1696428753.129696] 12 requests(s) received 781741 bytes in 1.002731 seconds.
+[1696428754.114967] 12 requests(s) received 781741 bytes in 0.985250 seconds.
+[1696428755.104119] 12 requests(s) received 781740 bytes in 0.989130 seconds.
+[1696428755.981822] 12 requests(s) received 781741 bytes in 0.877679 seconds.
+[1696428756.804428] 12 requests(s) received 781740 bytes in 0.822582 seconds.
+[1696428757.707582] 12 requests(s) received 781740 bytes in 0.903110 seconds.
+[1696428758.709125] 12 requests(s) received 781740 bytes in 1.001517 seconds.
+[1696428759.691729] 12 requests(s) received 781740 bytes in 0.982582 seconds.
+[1696428761.386868] 12 requests(s) received 781740 bytes in 1.695115 seconds.
+
+Total 30 successful of 30 cycles. 360 total requests. min/avg/max = 0.823/1.023/1.695 seconds.

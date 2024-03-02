@@ -1,0 +1,148 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-09-30 14:07:10.516772 - BBRn-pie:
+ Ping (ms) ICMP:
+  Data points: 334
+  Mean:        492.297455 ms
+  Median:      68.700000 ms
+  Min:         3.890000 ms
+  Max:         3838.000000 ms
+  Std dev:     869.383747
+  Variance:    755828.099802
+ TCP upload:
+  Data points: 363
+  Total:       957.350440 Mbits
+  Mean:        16.230000 Mbits/s
+  Median:      30.820000 Mbits/s
+  Min:         2.260000 Mbits/s
+  Max:         50.240000 Mbits/s
+  Std dev:     10.481724
+  Variance:    109.866535
+ TCP upload::tcp_bbr_bw:
+  Data points: 255
+  Total:       1966.756154 
+  Mean:        31.776155 
+  Median:      39.316184 
+  Min:         1.346392 
+  Max:         55.802296 
+  Std dev:     16.022653
+  Variance:    256.725419
+ TCP upload::tcp_bbr_cwnd_gain:
+  Data points: 255
+  Total:       120.996823 
+  Mean:        1.976026 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.886720 
+  Std dev:     0.173089
+  Variance:    0.029960
+ TCP upload::tcp_bbr_mrtt:
+  Data points: 255
+  Total:       628.858723 
+  Mean:        10.530333 
+  Median:      4.672000 
+  Min:         3.361000 
+  Max:         519.185000 
+  Std dev:     45.787947
+  Variance:    2096.536093
+ TCP upload::tcp_bbr_pacing_gain:
+  Data points: 255
+  Total:       66.242463 
+  Mean:        1.079427 
+  Median:      1.000000 
+  Min:         0.898438 
+  Max:         2.886720 
+  Std dev:     0.220673
+  Variance:    0.048697
+ TCP upload::tcp_cwnd:
+  Data points: 255
+  Total:       9374.523382 
+  Mean:        150.725490 
+  Median:      166.000000 
+  Min:         10.000000 
+  Max:         406.000000 
+  Std dev:     100.386758
+  Variance:    10077.501115
+ TCP upload::tcp_delivery_rate:
+  Data points: 255
+  Total:       852.783233 
+  Mean:        13.636307 
+  Median:      11.891424 
+  Min:         0.007880 
+  Max:         46.678672 
+  Std dev:     11.951548
+  Variance:    142.839504
+ TCP upload::tcp_pacing_rate:
+  Data points: 255
+  Total:       2071.092524 
+  Mean:        33.469182 
+  Median:      38.923016 
+  Min:         1.332928 
+  Max:         87.556280 
+  Std dev:     17.877093
+  Variance:    319.590444
+ TCP upload::tcp_rtt:
+  Data points: 255
+  Total:       29871.942320 
+  Mean:        501.225529 
+  Median:      87.019000 
+  Min:         9.488000 
+  Max:         3871.630000 
+  Std dev:     951.972842
+  Variance:    906252.291563
+ TCP upload::tcp_rtt_var:
+  Data points: 255
+  Total:       4741.751721 
+  Mean:        79.401514 
+  Median:      9.705000 
+  Min:         0.885000 
+  Max:         1150.150000 
+  Std dev:     177.269133
+  Variance:    31424.345530
+ qdisc_stats_localhost::backlog_bytes:
+  No data.
+ qdisc_stats_localhost::backlog_pkts:
+  No data.
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::dropped_pie:
+  No data.
+ qdisc_stats_localhost::ecn_mark:
+  No data.
+ qdisc_stats_localhost::maxq:
+  No data.
+ qdisc_stats_localhost::overlimit_pie:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::pkts_in:
+  Data points: 350
+  Total:       858496.276480 
+  Mean:        11829.248571 
+  Median:      13081.500000 
+  Min:         1.000000 
+  Max:         22651.000000 
+  Std dev:     7335.907088
+  Variance:    53815532.798212
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       5041271622.029033 
+  Mean:        69460733.920000 
+  Median:      77709008.000000 
+  Min:         98.000000 
+  Max:         131350950.000000 
+  Std dev:     42378400.065743
+  Variance:    1795928792132143.250000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       3342481.106751 
+  Mean:        46054.160000 
+  Median:      51502.000000 
+  Min:         1.000000 
+  Max:         87095.000000 
+  Std dev:     28089.553925
+  Variance:    789023039.711543

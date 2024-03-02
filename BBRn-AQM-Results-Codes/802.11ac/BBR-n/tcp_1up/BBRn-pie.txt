@@ -1,0 +1,148 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-09-14 05:29:27.678211 - BBRn-pie:
+ Ping (ms) ICMP:
+  Data points: 372
+  Mean:        10.600000 ms
+  Median:      9.560000 ms
+  Min:         1.880000 ms
+  Max:         47.000000 ms
+  Std dev:     6.543718
+  Variance:    42.820243
+ TCP upload:
+  Data points: 372
+  Total:       15013.151430 Mbits
+  Mean:        249.740000 Mbits/s
+  Median:      257.245000 Mbits/s
+  Min:         96.200000 Mbits/s
+  Max:         347.060000 Mbits/s
+  Std dev:     31.367290
+  Variance:    983.906907
+ TCP upload::tcp_bbr_bw:
+  Data points: 227
+  Total:       19319.341861 
+  Mean:        321.834922 
+  Median:      323.751264 
+  Min:         224.067448 
+  Max:         385.026840 
+  Std dev:     23.944454
+  Variance:    573.336873
+ TCP upload::tcp_bbr_cwnd_gain:
+  Data points: 227
+  Total:       119.017820 
+  Mean:        1.991189 
+  Median:      2.000000 
+  Min:         1.000000 
+  Max:         2.000000 
+  Std dev:     0.093450
+  Variance:    0.008733
+ TCP upload::tcp_bbr_mrtt:
+  Data points: 227
+  Total:       106.236722 
+  Mean:        1.772211 
+  Median:      1.624000 
+  Min:         1.467000 
+  Max:         11.907000 
+  Std dev:     0.720217
+  Variance:    0.518712
+ TCP upload::tcp_bbr_pacing_gain:
+  Data points: 227
+  Total:       63.959492 
+  Mean:        1.069418 
+  Median:      1.000000 
+  Min:         0.898438 
+  Max:         1.500000 
+  Std dev:     0.192761
+  Variance:    0.037157
+ TCP upload::tcp_cwnd:
+  Data points: 227
+  Total:       35063.697092 
+  Mean:        585.110132 
+  Median:      578.000000 
+  Min:         10.000000 
+  Max:         906.000000 
+  Std dev:     126.352040
+  Variance:    15964.838091
+ TCP upload::tcp_delivery_rate:
+  Data points: 227
+  Total:       12176.314378 
+  Mean:        203.004269 
+  Median:      211.769448 
+  Min:         37.702192 
+  Max:         320.249864 
+  Std dev:     58.428866
+  Variance:    3413.932338
+ TCP upload::tcp_pacing_rate:
+  Data points: 227
+  Total:       20724.179552 
+  Mean:        345.024640 
+  Median:      324.858432 
+  Min:         221.826776 
+  Max:         578.984240 
+  Std dev:     66.508739
+  Variance:    4423.412406
+ TCP upload::tcp_rtt:
+  Data points: 227
+  Total:       616.590947 
+  Mean:        10.232485 
+  Median:      8.915000 
+  Min:         3.509000 
+  Max:         37.625000 
+  Std dev:     4.673520
+  Variance:    21.841787
+ TCP upload::tcp_rtt_var:
+  Data points: 227
+  Total:       90.566717 
+  Mean:        1.513167 
+  Median:      1.185000 
+  Min:         0.302000 
+  Max:         7.511000 
+  Std dev:     1.157536
+  Variance:    1.339889
+ qdisc_stats_localhost::backlog_bytes:
+  No data.
+ qdisc_stats_localhost::backlog_pkts:
+  No data.
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::dropped_pie:
+  No data.
+ qdisc_stats_localhost::ecn_mark:
+  No data.
+ qdisc_stats_localhost::maxq:
+  No data.
+ qdisc_stats_localhost::overlimit_pie:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::pkts_in:
+  Data points: 350
+  Total:       2240595.953721 
+  Mean:        30150.685714 
+  Median:      30561.000000 
+  Min:         3.000000 
+  Max:         56826.000000 
+  Std dev:     19315.738898
+  Variance:    373097769.158367
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       76883383950.571777 
+  Mean:        1034634669.797143 
+  Median:      1046080225.000000 
+  Min:         182.000000 
+  Max:         1962176649.000000 
+  Std dev:     670489133.079445
+  Variance:    449555677577625152.000000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       50799514.170633 
+  Mean:        683618.854286 
+  Median:      691181.000000 
+  Min:         3.000000 
+  Max:         1296431.000000 
+  Std dev:     442969.802178
+  Variance:    196222245641.347321

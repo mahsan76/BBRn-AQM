@@ -1,0 +1,27 @@
+[1696428646.027150] 12 requests(s) received 781742 bytes in 0.999870 seconds.
+[1696428646.950767] 12 requests(s) received 781742 bytes in 0.923537 seconds.
+[1696428647.858812] 12 requests(s) received 781741 bytes in 0.908022 seconds.
+[1696428648.756494] 12 requests(s) received 781742 bytes in 0.897633 seconds.
+[1696428649.699706] 12 requests(s) received 781743 bytes in 0.943189 seconds.
+[1696428650.783075] 12 requests(s) received 781742 bytes in 1.083347 seconds.
+[1696428651.966284] 12 requests(s) received 781742 bytes in 1.183185 seconds.
+[1696428653.214994] 12 requests(s) received 781741 bytes in 1.248686 seconds.
+[1696428654.068944] 12 requests(s) received 781742 bytes in 0.853929 seconds.
+[1696428654.924653] 12 requests(s) received 781741 bytes in 0.855687 seconds.
+[1696428655.866603] 12 requests(s) received 781742 bytes in 0.941926 seconds.
+[1696428656.794248] 12 requests(s) received 781740 bytes in 0.927604 seconds.
+[1696428657.915903] 12 requests(s) received 781742 bytes in 1.121628 seconds.
+[1696428658.897597] 12 requests(s) received 781742 bytes in 0.981673 seconds.
+[1696428659.966392] 12 requests(s) received 781742 bytes in 1.068771 seconds.
+[1696428661.737807] 12 requests(s) received 781742 bytes in 1.771391 seconds.
+[1696428663.409007] 12 requests(s) received 781742 bytes in 1.671177 seconds.
+[1696428665.799032] 12 requests(s) received 781742 bytes in 2.389999 seconds.
+[1696428667.396714] 12 requests(s) received 781742 bytes in 1.597661 seconds.
+[1696428668.913900] 12 requests(s) received 781742 bytes in 1.517162 seconds.
+[1696428670.416444] 12 requests(s) received 781741 bytes in 1.502172 seconds.
+[1696428671.521733] 12 requests(s) received 781742 bytes in 1.105266 seconds.
+[1696428672.762064] 12 requests(s) received 781742 bytes in 1.240307 seconds.
+[1696428674.189876] 12 requests(s) received 781742 bytes in 1.427788 seconds.
+[1696428675.260980] 12 requests(s) received 781741 bytes in 1.071060 seconds.
+
+Total 25 successful of 25 cycles. 300 total requests. min/avg/max = 0.854/1.209/2.390 seconds.

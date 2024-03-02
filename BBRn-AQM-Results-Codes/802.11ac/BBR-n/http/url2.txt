@@ -1,0 +1,13 @@
+https://www.huffpost.com/index.html
+https://www.huffpost.com/robots.txt
+https://www.huffpost.com/static-assets/cambria/app/ie.cfca7c958b81658f5a83.js
+https://www.huffpost.com/favicon.ico
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-regular.hash-79c14ea7490af62fc90c4c91a9ebdc4e.woff
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-bold.hash-c5b5d29cb016c8df27f6fc56fb8d9a84.woff
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-semibold.hash-f45999e0380f344650ac535a7a00e6a9.woff
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-condensed-medium.hash-15d69e2022c9578256bf4293d7917299.woff2
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-condensed-bold.hash-cfe96e1adc5f15e8d1e1dbea32f45eaf.woff2
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-condensed-bold-italic.hash-22dfcf1417067b49e8c1e5304f3e60b5.woff2
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-condensed-extrabld.hash-40acc89242624bef183ace6be58d6dfd.woff2
+https://www.huffpost.com/static-assets/cambria/app/fonts/proxima-nova-condensed-extrabold-italic.hash-0ee0e93dd385edd2c35c066ec5916f29.woff2
+https://www.huffpost.com/static-assets/cambria/app/favicon.ico

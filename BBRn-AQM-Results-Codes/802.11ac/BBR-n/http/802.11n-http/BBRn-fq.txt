@@ -1,0 +1,41 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-10-04 14:29:24.745758 - BBRn-fq:
+ HTTP latency:
+  Data points: 309
+  Mean:        1039.000000 ms
+  Median:      988.399500 ms
+  Min:         878.729000 ms
+  Max:         1976.073000 ms
+  Std dev:     197.703869
+  Variance:    39086.819846
+ qdisc_stats_localhost::backlog_bytes:
+  No data.
+ qdisc_stats_localhost::backlog_pkts:
+  No data.
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 300
+  Total:       31326652.796749 
+  Mean:        506711.183333 
+  Median:      504247.000000 
+  Min:         363.000000 
+  Max:         1022071.000000 
+  Std dev:     309212.996680
+  Variance:    95612677315.836411
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 300
+  Total:       367363.325701 
+  Mean:        5942.130000 
+  Median:      5898.500000 
+  Min:         4.000000 
+  Max:         12022.000000 
+  Std dev:     3641.954526
+  Variance:    13263832.766433

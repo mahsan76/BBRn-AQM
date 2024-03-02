@@ -1,0 +1,25 @@
+Linux Pacing:
+
+https://docs.google.com/document/d/1-uXnPDcVBKmg5krkG5wYBgaA2yLSFK_kZa7xGDWc7XU/edit#heading=h.7624xn94jzf6
+
+
+qdisc:
+
+tc qdisc show dev ens33
+
+
+tc qdisc add dev ens33 root fq_codel
+tc -s qdisc show
+
+tc qdisc show dev ens33
+
+sysctl net.core.default_qdisc
+
+sysctl -a | grep qdisc
+
+tc qdisc add dev ens33 root fq nopacing   ( to disble default pacing in fq )
+
+
+watch  -dc  tc -p -s -d  qdisc show dev ens33
+
+

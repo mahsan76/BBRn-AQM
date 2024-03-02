@@ -1,0 +1,505 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-10-01 08:33:23.407609 - Cubic-fq:
+ Ping (ms) ICMP:
+  Data points: 304
+  Mean:        2173.749671 ms
+  Median:      2786.000000 ms
+  Min:         3.550000 ms
+  Max:         4996.000000 ms
+  Std dev:     1423.545145
+  Variance:    2026480.780507
+ TCP upload avg:
+  Data points: 361
+  Total:       349.327266 Mbits
+  Mean:        5.393750 Mbits/s
+  Median:      5.560898 Mbits/s
+  Min:         3.377779 Mbits/s
+  Max:         10.431429 Mbits/s
+  Std dev:     1.198628
+  Variance:    1.436709
+ TCP upload sum:
+  Data points: 361
+  Total:       1680.517161 Mbits
+  Mean:        43.150000 Mbits/s
+  Median:      23.644619 Mbits/s
+  Min:         3.712173 Mbits/s
+  Max:         79.062959 Mbits/s
+  Std dev:     16.039435
+  Variance:    257.263481
+ TCP upload::1:
+  Data points: 361
+  Total:       377.516690 Mbits
+  Mean:        5.910000 Mbits/s
+  Median:      7.225000 Mbits/s
+  Min:         3.990000 Mbits/s
+  Max:         17.600000 Mbits/s
+  Std dev:     2.970404
+  Variance:    8.823303
+ TCP upload::1::tcp_cwnd:
+  Data points: 265
+  Total:       101267.476441 
+  Mean:        1594.286792 
+  Median:      2069.000000 
+  Min:         62.000000 
+  Max:         2069.000000 
+  Std dev:     718.903190
+  Variance:    516821.796995
+ TCP upload::1::tcp_delivery_rate:
+  Data points: 265
+  Total:       355.942796 
+  Mean:        5.559533 
+  Median:      5.363576 
+  Min:         2.880312 
+  Max:         12.018640 
+  Std dev:     1.141306
+  Variance:    1.302579
+ TCP upload::1::tcp_pacing_rate:
+  Data points: 265
+  Total:       608.903609 
+  Mean:        9.480945 
+  Median:      8.984416 
+  Min:         5.845744 
+  Max:         29.934296 
+  Std dev:     2.867019
+  Variance:    8.219797
+ TCP upload::1::tcp_rtt:
+  Data points: 264
+  Total:       161252.559894 
+  Mean:        2536.179413 
+  Median:      3006.985000 
+  Min:         28.791000 
+  Max:         4919.940000 
+  Std dev:     1256.637565
+  Variance:    1579137.969234
+ TCP upload::1::tcp_rtt_var:
+  Data points: 264
+  Total:       1065.665487 
+  Mean:        16.790155 
+  Median:      10.679000 
+  Min:         1.975000 
+  Max:         165.922000 
+  Std dev:     19.260359
+  Variance:    370.961424
+ TCP upload::2:
+  Data points: 361
+  Total:       343.847020 Mbits
+  Mean:        5.380000 Mbits/s
+  Median:      5.890000 Mbits/s
+  Min:         3.150000 Mbits/s
+  Max:         12.290000 Mbits/s
+  Std dev:     1.612974
+  Variance:    2.601684
+ TCP upload::2::tcp_cwnd:
+  Data points: 265
+  Total:       100153.489573 
+  Mean:        1577.116981 
+  Median:      1770.000000 
+  Min:         40.000000 
+  Max:         2301.000000 
+  Std dev:     762.356633
+  Variance:    581187.635372
+ TCP upload::2::tcp_delivery_rate:
+  Data points: 265
+  Total:       330.933832 
+  Mean:        5.188563 
+  Median:      5.267680 
+  Min:         2.777232 
+  Max:         8.467992 
+  Std dev:     0.973285
+  Variance:    0.947283
+ TCP upload::2::tcp_pacing_rate:
+  Data points: 265
+  Total:       564.421111 
+  Mean:        8.838543 
+  Median:      8.514352 
+  Min:         4.859584 
+  Max:         18.392160 
+  Std dev:     2.347775
+  Variance:    5.512047
+ TCP upload::2::tcp_rtt:
+  Data points: 262
+  Total:       161451.217662 
+  Mean:        2538.315905 
+  Median:      3046.230000 
+  Min:         41.671000 
+  Max:         5063.070000 
+  Std dev:     1267.146044
+  Variance:    1605659.098077
+ TCP upload::2::tcp_rtt_var:
+  Data points: 262
+  Total:       1104.428042 
+  Mean:        17.444599 
+  Median:      12.272500 
+  Min:         1.766000 
+  Max:         304.475000 
+  Std dev:     23.622616
+  Variance:    558.028010
+ TCP upload::3:
+  Data points: 361
+  Total:       343.594110 Mbits
+  Mean:        5.520000 Mbits/s
+  Median:      5.940000 Mbits/s
+  Min:         3.900000 Mbits/s
+  Max:         9.620000 Mbits/s
+  Std dev:     1.258762
+  Variance:    1.584482
+ TCP upload::3::tcp_cwnd:
+  Data points: 265
+  Total:       105525.686482 
+  Mean:        1653.973585 
+  Median:      1848.000000 
+  Min:         39.000000 
+  Max:         2346.000000 
+  Std dev:     805.834191
+  Variance:    649368.742698
+ TCP upload::3::tcp_delivery_rate:
+  Data points: 265
+  Total:       337.530766 
+  Mean:        5.278931 
+  Median:      5.330736 
+  Min:         2.840936 
+  Max:         7.885448 
+  Std dev:     0.922488
+  Variance:    0.850983
+ TCP upload::3::tcp_pacing_rate:
+  Data points: 265
+  Total:       577.235852 
+  Mean:        9.010818 
+  Median:      8.723096 
+  Min:         5.337352 
+  Max:         14.860808 
+  Std dev:     1.711168
+  Variance:    2.928095
+ TCP upload::3::tcp_rtt:
+  Data points: 261
+  Total:       162179.527168 
+  Mean:        2539.619034 
+  Median:      3013.960000 
+  Min:         41.652000 
+  Max:         4991.140000 
+  Std dev:     1265.975800
+  Variance:    1602694.727261
+ TCP upload::3::tcp_rtt_var:
+  Data points: 261
+  Total:       1168.659594 
+  Mean:        18.409736 
+  Median:      12.459000 
+  Min:         1.799000 
+  Max:         303.388000 
+  Std dev:     23.964366
+  Variance:    574.290816
+ TCP upload::4:
+  Data points: 361
+  Total:       350.228930 Mbits
+  Mean:        5.480000 Mbits/s
+  Median:      6.050000 Mbits/s
+  Min:         3.250000 Mbits/s
+  Max:         10.480000 Mbits/s
+  Std dev:     1.393693
+  Variance:    1.942381
+ TCP upload::4::tcp_cwnd:
+  Data points: 265
+  Total:       106830.995477 
+  Mean:        1682.592453 
+  Median:      1918.000000 
+  Min:         42.000000 
+  Max:         2428.000000 
+  Std dev:     818.641525
+  Variance:    670173.947113
+ TCP upload::4::tcp_delivery_rate:
+  Data points: 265
+  Total:       343.220279 
+  Mean:        5.363255 
+  Median:      5.292872 
+  Min:         3.084840 
+  Max:         8.691832 
+  Std dev:     0.959243
+  Variance:    0.920148
+ TCP upload::4::tcp_pacing_rate:
+  Data points: 265
+  Total:       598.031697 
+  Mean:        9.332453 
+  Median:      8.726248 
+  Min:         5.375280 
+  Max:         19.902200 
+  Std dev:     2.475177
+  Variance:    6.126500
+ TCP upload::4::tcp_rtt:
+  Data points: 264
+  Total:       162689.278955 
+  Mean:        2556.067439 
+  Median:      3044.500000 
+  Min:         29.335000 
+  Max:         4988.510000 
+  Std dev:     1264.154868
+  Variance:    1598087.531030
+ TCP upload::4::tcp_rtt_var:
+  Data points: 264
+  Total:       1002.428052 
+  Mean:        15.760258 
+  Median:      11.701500 
+  Min:         2.155000 
+  Max:         123.592000 
+  Std dev:     15.012534
+  Variance:    225.376176
+ TCP upload::5:
+  Data points: 361
+  Total:       325.242210 Mbits
+  Mean:        5.090000 Mbits/s
+  Median:      5.260000 Mbits/s
+  Min:         3.130000 Mbits/s
+  Max:         12.500000 Mbits/s
+  Std dev:     1.823843
+  Variance:    3.326405
+ TCP upload::5::tcp_cwnd:
+  Data points: 265
+  Total:       93835.268568 
+  Mean:        1477.932075 
+  Median:      1897.000000 
+  Min:         32.000000 
+  Max:         2009.000000 
+  Std dev:     693.463228
+  Variance:    480891.248216
+ TCP upload::5::tcp_delivery_rate:
+  Data points: 265
+  Total:       308.125266 
+  Mean:        4.834565 
+  Median:      4.956440 
+  Min:         2.662000 
+  Max:         6.696176 
+  Std dev:     0.863009
+  Variance:    0.744784
+ TCP upload::5::tcp_pacing_rate:
+  Data points: 265
+  Total:       516.472007 
+  Mean:        8.094118 
+  Median:      8.206376 
+  Min:         4.306464 
+  Max:         16.051728 
+  Std dev:     1.791216
+  Variance:    3.208456
+ TCP upload::5::tcp_rtt:
+  Data points: 265
+  Total:       161135.753780 
+  Mean:        2539.474804 
+  Median:      2993.240000 
+  Min:         53.120000 
+  Max:         4986.330000 
+  Std dev:     1253.067264
+  Variance:    1570177.569245
+ TCP upload::5::tcp_rtt_var:
+  Data points: 265
+  Total:       1093.123010 
+  Mean:        17.257634 
+  Median:      13.020000 
+  Min:         2.169000 
+  Max:         100.369000 
+  Std dev:     14.382707
+  Variance:    206.862255
+ TCP upload::6:
+  Data points: 361
+  Total:       341.000590 Mbits
+  Mean:        5.340000 Mbits/s
+  Median:      5.660000 Mbits/s
+  Min:         3.410000 Mbits/s
+  Max:         15.550000 Mbits/s
+  Std dev:     2.031386
+  Variance:    4.126530
+ TCP upload::6::tcp_cwnd:
+  Data points: 265
+  Total:       106205.360583 
+  Mean:        1671.335849 
+  Median:      1786.000000 
+  Min:         36.000000 
+  Max:         2750.000000 
+  Std dev:     865.760974
+  Variance:    749542.064564
+ TCP upload::6::tcp_delivery_rate:
+  Data points: 265
+  Total:       321.112383 
+  Mean:        5.019860 
+  Median:      4.989744 
+  Min:         2.760456 
+  Max:         7.064496 
+  Std dev:     0.761289
+  Variance:    0.579561
+ TCP upload::6::tcp_pacing_rate:
+  Data points: 265
+  Total:       580.305953 
+  Mean:        9.054585 
+  Median:      8.102216 
+  Min:         4.990472 
+  Max:         18.328200 
+  Std dev:     2.520341
+  Variance:    6.352119
+ TCP upload::6::tcp_rtt:
+  Data points: 263
+  Total:       162571.737728 
+  Mean:        2551.758741 
+  Median:      3064.950000 
+  Min:         27.303000 
+  Max:         4985.540000 
+  Std dev:     1260.958657
+  Variance:    1590016.733850
+ TCP upload::6::tcp_rtt_var:
+  Data points: 263
+  Total:       1024.081271 
+  Mean:        16.021977 
+  Median:      11.473000 
+  Min:         2.139000 
+  Max:         94.596000 
+  Std dev:     13.986960
+  Variance:    195.635059
+ TCP upload::7:
+  Data points: 361
+  Total:       337.658950 Mbits
+  Mean:        5.280000 Mbits/s
+  Median:      5.185000 Mbits/s
+  Min:         2.990000 Mbits/s
+  Max:         14.990000 Mbits/s
+  Std dev:     2.138844
+  Variance:    4.574655
+ TCP upload::7::tcp_cwnd:
+  Data points: 265
+  Total:       101034.747188 
+  Mean:        1592.150943 
+  Median:      1904.000000 
+  Min:         27.000000 
+  Max:         2396.000000 
+  Std dev:     782.795980
+  Variance:    612769.547027
+ TCP upload::7::tcp_delivery_rate:
+  Data points: 265
+  Total:       329.162678 
+  Mean:        5.148507 
+  Median:      5.128144 
+  Min:         2.300624 
+  Max:         7.460968 
+  Std dev:     1.215569
+  Variance:    1.477607
+ TCP upload::7::tcp_pacing_rate:
+  Data points: 265
+  Total:       549.455054 
+  Mean:        8.592999 
+  Median:      8.166104 
+  Min:         3.797016 
+  Max:         19.143808 
+  Std dev:     2.514515
+  Variance:    6.322784
+ TCP upload::7::tcp_rtt:
+  Data points: 265
+  Total:       161389.411657 
+  Mean:        2531.407525 
+  Median:      2962.390000 
+  Min:         49.170000 
+  Max:         4791.740000 
+  Std dev:     1253.148505
+  Variance:    1570381.176104
+ TCP upload::7::tcp_rtt_var:
+  Data points: 265
+  Total:       1281.619336 
+  Mean:        20.127558 
+  Median:      13.344000 
+  Min:         1.717000 
+  Max:         177.086000 
+  Std dev:     21.158899
+  Variance:    447.698990
+ TCP upload::8:
+  Data points: 361
+  Total:       328.884040 Mbits
+  Mean:        5.150000 Mbits/s
+  Median:      5.230000 Mbits/s
+  Min:         3.060000 Mbits/s
+  Max:         9.290000 Mbits/s
+  Std dev:     1.482597
+  Variance:    2.198095
+ TCP upload::8::tcp_cwnd:
+  Data points: 265
+  Total:       105390.854068 
+  Mean:        1660.022642 
+  Median:      1918.000000 
+  Min:         27.000000 
+  Max:         2394.000000 
+  Std dev:     820.160283
+  Variance:    672662.890053
+ TCP upload::8::tcp_delivery_rate:
+  Data points: 265
+  Total:       313.312432 
+  Mean:        4.917774 
+  Median:      5.045872 
+  Min:         2.295104 
+  Max:         7.957896 
+  Std dev:     1.021187
+  Variance:    1.042823
+ TCP upload::8::tcp_pacing_rate:
+  Data points: 265
+  Total:       563.655966 
+  Mean:        8.838208 
+  Median:      8.588792 
+  Min:         3.719552 
+  Max:         19.141496 
+  Std dev:     2.524745
+  Variance:    6.374336
+ TCP upload::8::tcp_rtt:
+  Data points: 260
+  Total:       161652.439260 
+  Mean:        2553.050988 
+  Median:      3051.045000 
+  Min:         38.493000 
+  Max:         5063.870000 
+  Std dev:     1265.847585
+  Variance:    1602370.109393
+ TCP upload::8::tcp_rtt_var:
+  Data points: 260
+  Total:       1072.165383 
+  Mean:        16.948696 
+  Median:      12.380500 
+  Min:         2.008000 
+  Max:         202.067000 
+  Std dev:     19.076448
+  Variance:    363.910872
+ qdisc_stats_localhost::backlog_bytes:
+  Data points: 346
+  Total:       1729514.437046 
+  Mean:        23768.924855 
+  Median:      25738.000000 
+  Min:         0.000000 
+  Max:         52990.000000 
+  Std dev:     16219.254126
+  Variance:    263064204.416319
+ qdisc_stats_localhost::backlog_pkts:
+  Data points: 346
+  Total:       582.918183 
+  Mean:        8.011561 
+  Median:      9.000000 
+  Min:         0.000000 
+  Max:         19.000000 
+  Std dev:     5.496703
+  Variance:    30.213739
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       37229599363.763603 
+  Mean:        516365594.148571 
+  Median:      520613660.000000 
+  Min:         334934080.000000 
+  Max:         695634662.000000 
+  Std dev:     118216616.559365
+  Variance:    13975168430743822.000000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       24632676.306419 
+  Mean:        341649.340000 
+  Median:      344457.000000 
+  Min:         221590.000000 
+  Max:         460278.000000 
+  Std dev:     78198.020028
+  Variance:    6114930336.287257

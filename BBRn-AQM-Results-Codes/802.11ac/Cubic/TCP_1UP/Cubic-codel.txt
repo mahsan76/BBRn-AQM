@@ -1,0 +1,137 @@
+Warning: Totals are computed as cumulative sum * step size,
+so spurious values wreck havoc with the results.
+Results 2023-10-04 04:50:00.206897 - Cubic-codel:
+ Ping (ms) ICMP:
+  Data points: 375
+  Mean:        9.320000 ms
+  Median:      7.160000 ms
+  Min:         2.410000 ms
+  Max:         65.200000 ms
+  Std dev:     7.675149
+  Variance:    58.907907
+ TCP upload:
+  Data points: 375
+  Total:       15028.824830 Mbits
+  Mean:        250.410000 Mbits/s
+  Median:      257.955000 Mbits/s
+  Min:         41.770000 Mbits/s
+  Max:         417.320000 Mbits/s
+  Std dev:     46.244271
+  Variance:    2138.532588
+ TCP upload::tcp_cwnd:
+  Data points: 207
+  Total:       133335.588609 
+  Mean:        2235.661836 
+  Median:      2688.000000 
+  Min:         34.000000 
+  Max:         2688.000000 
+  Std dev:     724.940159
+  Variance:    525538.233471
+ TCP upload::tcp_delivery_rate:
+  Data points: 207
+  Total:       18974.464053 
+  Mean:        319.186334 
+  Median:      349.341720 
+  Min:         60.635208 
+  Max:         382.824112 
+  Std dev:     69.950441
+  Variance:    4893.064217
+ TCP upload::tcp_pacing_rate:
+  Data points: 207
+  Total:       231611.192195 
+  Mean:        3912.211345 
+  Median:      3708.765656 
+  Min:         133.096928 
+  Max:         8659.659984 
+  Std dev:     2173.715302
+  Variance:    4725038.216063
+ TCP upload::tcp_rtt:
+  Data points: 206
+  Total:       622.630852 
+  Mean:        9.955650 
+  Median:      7.369500 
+  Min:         3.551000 
+  Max:         55.739000 
+  Std dev:     7.416506
+  Variance:    55.004555
+ TCP upload::tcp_rtt_var:
+  Data points: 206
+  Total:       112.282113 
+  Mean:        1.801165 
+  Median:      1.421000 
+  Min:         0.382000 
+  Max:         13.925000 
+  Std dev:     1.516835
+  Variance:    2.300787
+ qdisc_stats_localhost::backlog_bytes:
+  Data points: 350
+  Total:       63976.844180 
+  Mean:        778.628571 
+  Median:      0.000000 
+  Min:         0.000000 
+  Max:         272520.000000 
+  Std dev:     14545.982120
+  Variance:    211585595.833469
+ qdisc_stats_localhost::backlog_pkts:
+  Data points: 350
+  Total:       0.939041 
+  Mean:        0.011429 
+  Median:      0.000000 
+  Min:         0.000000 
+  Max:         4.000000 
+  Std dev:     0.213503
+  Variance:    0.045584
+ qdisc_stats_localhost::backlog_requeues:
+  No data.
+ qdisc_stats_localhost::count:
+  No data.
+ qdisc_stats_localhost::delay:
+  Data points: 350
+  Total:       50.179062 
+  Mean:        0.660897 
+  Median:      0.417500 
+  Min:         0.000000 
+  Max:         5.300000 
+  Std dev:     0.706757
+  Variance:    0.499505
+ qdisc_stats_localhost::drop_next:
+  No data.
+ qdisc_stats_localhost::drop_overlimit:
+  No data.
+ qdisc_stats_localhost::dropped:
+  No data.
+ qdisc_stats_localhost::ecn_mark:
+  No data.
+ qdisc_stats_localhost::lastcount:
+  No data.
+ qdisc_stats_localhost::maxpacket:
+  Data points: 350
+  Total:       4518657.594839 
+  Mean:        60152.977143 
+  Median:      68130.000000 
+  Min:         0.000000 
+  Max:         68130.000000 
+  Std dev:     21899.200628
+  Variance:    479574988.153763
+ qdisc_stats_localhost::overlimits:
+  No data.
+ qdisc_stats_localhost::requeues:
+  No data.
+ qdisc_stats_localhost::sent_bytes:
+  Data points: 350
+  Total:       80090276748.942734 
+  Mean:        1072730011.377143 
+  Median:      1112386495.000000 
+  Min:         140.000000 
+  Max:         1965055480.000000 
+  Std dev:     678003203.403308
+  Variance:    459688343825147520.000000
+ qdisc_stats_localhost::sent_pkts:
+  Data points: 350
+  Total:       53005887.850700 
+  Mean:        709962.317143 
+  Median:      736124.500000 
+  Min:         2.000000 
+  Max:         1300728.000000 
+  Std dev:     448778.178240
+  Variance:    201401853264.028046

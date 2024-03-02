@@ -1,0 +1,12 @@
+https://www.pcmag.com/index.html
+https://www.pcmag.com/robots.txt
+https://www.pcmag.com/favicon.ico
+https://www.pcmag.com/icon.svg
+https://www.pcmag.com/apple-touch-icon.png
+https://www.pcmag.com/manifest.json
+https://www.pcmag.com/js/new-app.js?id=a0bf24cab8a70ead15391113a5460bae
+https://www.pcmag.com/js/ga.js?id=039c09a97329228fad83d2fdf663a0c8
+https://www.pcmag.com/icons/bars-light.svg
+https://www.pcmag.com/icons/plus.svg
+https://www.pcmag.com/icons/plus-red.svg
+https://www.pcmag.com/icons/times-light.svg

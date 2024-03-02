@@ -1,0 +1,58 @@
+diff --git a/tcp_bbr.c b/tcp_bbrn.c
+index 1f68d2f..00d12ff 100644
+--- a/tcp_bbr.c
++++ b/tcp_bbrn.c
+@@ -149,17 +149,17 @@ static const int bbr_pacing_margin_percent = 1;
+  * and send the same number of packets per RTT that an un-paced, slow-starting
+  * Reno or CUBIC flow would:
+  */
+-static const int bbr_high_gain  = BBR_UNIT * 2773 / 1000 + 1;
++static const int bbr_high_gain  = BBR_UNIT * 2885 / 1000 + 1;
+ /* The pacing gain of 1/high_gain in BBR_DRAIN is calculated to typically drain
+  * the queue created in BBR_STARTUP in a single round:
+  */
+-static const int bbr_drain_gain = BBR_UNIT * 1000 / 2773;
++static const int bbr_drain_gain = BBR_UNIT * 1000 / 2885;
+ /* The gain for deriving steady-state cwnd tolerates delayed/stretched ACKs: */
+ static const int bbr_cwnd_gain  = BBR_UNIT * 2;
+ /* The pacing_gain values for the PROBE_BW gain cycle, to discover/share bw: */
+ static const int bbr_pacing_gain[] = {
+-	BBR_UNIT * 5 / 4,	/* probe for more available bw */
+-	BBR_UNIT * 3 / 4,	/* drain queue and/or yield bw to other flows */
++	BBR_UNIT * 7.5 / 5,	/* probe for more available bw */
++	BBR_UNIT * 4.5 / 5,	/* drain queue and/or yield bw to other flows */
+ 	BBR_UNIT, BBR_UNIT, BBR_UNIT,	/* cruise at 1.0*bw to utilize pipe, */
+ 	BBR_UNIT, BBR_UNIT, BBR_UNIT	/* without creating excess queue... */
+ };
+@@ -170,11 +170,11 @@ static const u32 bbr_cycle_rand = 7;
+  * smooth functioning, a sliding window protocol ACKing every other packet
+  * needs at least 4 packets in flight:
+  */
+-static const u32 bbr_cwnd_min_target = 4;
++static const u32 bbr_cwnd_min_target = 10;
+ 
+ /* To estimate if BBR_STARTUP mode (i.e. high_gain) has filled pipe... */
+ /* If bw has increased significantly (1.25x), there may be more bw available: */
+-static const u32 bbr_full_bw_thresh = BBR_UNIT * 5 / 4;
++static const u32 bbr_full_bw_thresh = BBR_UNIT * 7.5 / 5;
+ /* But after 3 rounds w/o significant bw growth, estimate pipe is full: */
+ static const u32 bbr_full_bw_cnt = 3;
+ 
+@@ -295,7 +295,7 @@ static void bbr_set_pacing_rate(struct sock *sk, u32 bw, int gain)
+ /* override sysctl_tcp_min_tso_segs */
+ static u32 bbr_min_tso_segs(struct sock *sk)
+ {
+-	return sk->sk_pacing_rate < (bbr_min_tso_rate >> 3) ? 1 : 2;
++	return sk->sk_pacing_rate < (bbr_min_tso_rate >> 3) ? 1 : 4;
+ }
+ 
+ static u32 bbr_tso_segs_goal(struct sock *sk)
+@@ -1139,7 +1139,7 @@ static void bbr_set_state(struct sock *sk, u8 new_state)
+ 
+ static struct tcp_congestion_ops tcp_bbr_cong_ops __read_mostly = {
+ 	.flags		= TCP_CONG_NON_RESTRICTED,
+-	.name		= "bbr",
++	.name		= "bbrn",
+ 	.owner		= THIS_MODULE,
+ 	.init		= bbr_init,
+ 	.cong_control	= bbr_main,
